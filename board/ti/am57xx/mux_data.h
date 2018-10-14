@@ -116,8 +116,8 @@ const struct pad_conf_entry core_padconf_array_essential_x15[] = {
 	{MDIO_MCLK, (M0 | PIN_OUTPUT | SLEWCONTROL)},	/* mdio_mclk.mdio_mclk */
 	{MDIO_D, (M0 | PIN_INPUT | SLEWCONTROL)},	/* mdio_d.mdio_d */
 	{RMII_MHZ_50_CLK, (M14 | PIN_INPUT_PULLUP)},	/* RMII_MHZ_50_CLK.gpio5_17 */
-	{UART3_RXD, (M14 | PIN_INPUT_SLEW)},	/* uart3_rxd.gpio5_18 */
-	{UART3_TXD, (M14 | PIN_INPUT_SLEW)},	/* uart3_txd.gpio5_19 */
+	{UART3_RXD, (M0 | PIN_INPUT_SLEW)},	/* uart3_rxd.gpio5_18 */
+	{UART3_TXD, (M0 | PIN_INPUT_SLEW)},	/* uart3_txd.gpio5_19 */
 	{RGMII0_TXC, (M0 | PIN_OUTPUT | MANUAL_MODE)},	/* rgmii0_txc.rgmii0_txc */
 	{RGMII0_TXCTL, (M0 | PIN_OUTPUT | MANUAL_MODE)},	/* rgmii0_txctl.rgmii0_txctl */
 	{RGMII0_TXD3, (M0 | PIN_OUTPUT | MANUAL_MODE)},	/* rgmii0_txd3.rgmii0_txd3 */
